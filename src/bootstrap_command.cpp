@@ -19,6 +19,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_COMPILER g++)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
+
+add_subdirectory(src)
 )");
 
 constexpr std::string_view cmake_src_boilerplate (
